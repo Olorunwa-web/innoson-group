@@ -1,0 +1,23 @@
+.craft{
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 50px;
+    width: 100%;
+    margin: 0 auto;
+
+    color: #FFFFFF;
+}
+
+.color{
+    background-color: #365FA3;
+    
+} 
+
+@media(max-width:767px){
+    .craft{
+        /* width: 781px; */
+        font-size: 27px;
+    }
+}
+
+

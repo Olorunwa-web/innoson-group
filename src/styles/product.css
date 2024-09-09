@@ -1,0 +1,127 @@
+body{
+    background-color: #F7F7F7;
+}
+
+
+.what{
+    font-weight: 700;
+    font-size: 20px;
+    color:#000000;
+}
+
+.parent{
+    padding: 45px 47px;
+   background-color:  rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    height: 530px;
+}
+
+.first-img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-wrapper {
+    width: 50%;
+    /* border: 2px solid red; */
+    height: 100%;
+}
+.space{
+    gap: 2rem;
+    height: 100%;
+}
+.auto{
+    width: 50%;
+    /* border: 2px solidblue ; */
+}
+.auto h2{
+    color:#365FA3;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom:24px;
+    text-align: left;
+    
+}
+
+.auto p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    line-height: 24px;
+    padding-bottom: 44px;
+    height: 100%;
+}
+
+.btn22{
+    width: 171px;
+    height: 47px;
+    color:  #F7F7F7;
+    background-color: #38D69E;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.24px;
+    background-image: url('../assets/Arrow 1.png');
+    background-repeat: no-repeat;
+    background-position: 90% 53%;
+    border-radius: 5px;
+
+}
+
+.parents{
+    padding: 45px 47px;
+    background-color: rgb(255, 255, 255);
+    /* border: 2px solid black; */
+    height: 530px;
+}
+
+.autos{
+    width: 50%;
+    
+}
+.autos h2{
+    color:#365FA3;
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom:24px;
+    margin: 0 auto;
+}
+
+.autos p{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    line-height: 24px;
+    padding-bottom: 44px;
+    height: 100%;
+}
+
+
+
+
+
+ @media(max-width:900px){
+    .parent{
+        height: auto;
+        padding: 20px 23px;
+    }
+    .img-wrapper{
+        width: 100%;
+    }
+    
+    .auto{
+        width: 100%;
+    }
+
+    .parents{
+        height: auto;
+        padding: 20px 23px;
+    }
+    
+    .autos{
+        width: 100%;
+    }
+
+} 

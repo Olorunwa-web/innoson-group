@@ -1,0 +1,30 @@
+section{
+    background-image: url("../assets/istockphoto-537311780-612x612 1.png");
+    height: 30rem;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+
+
+.foot{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 81.72px;
+    text-align: center;
+    color: #F7F7F7;
+    /* text-align: center; */
+    margin: 0 auto;
+}
+
+@media (max-width:768px){
+    section{
+        height: 20rem;
+    }
+    
+    .foot{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+}
